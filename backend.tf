@@ -4,6 +4,6 @@ terraform {
     key            = "tooling/terraform.state"
     bucket         = "mamuks-terraform-backend-bucket"
     region         = "us-west-2"
-    dynamodb_table = "terraform-state-locking"
+    dynamodb_table = "mamuks-state-locking"
   }
 }
